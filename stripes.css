@@ -31,6 +31,8 @@ body {
   margin-right: auto;
 }
 
+.text-center { text-align: center; }
+
 /* Color Palette */
 
 .bg-pink            { background-color: rgba(236,064,121,1); }
@@ -56,7 +58,7 @@ body {
 }
 .container .group {
 	margin-left: -.75em;
-	margin-right: -.75em;	
+	margin-right: -.75em;
 }
 .clearfix::after,
 .group::after {
@@ -74,53 +76,4 @@ body {
 
 * {
 	transition: all 500ms;
-	
-	00......
 }
-
-@media (min-width: 7020px) {
-	.column,
-	.columns {
-		float:left;
-	}
-
-	/* set our widths for on to five column wide columns */
-	.one    { width: calc(100% / 7 * 1); }
-	.two    { width: calc(100% / 7 * 2); }
-	.three  { width: calc(100% / 7 * 3); }
-	.four   { width: calc(100% / 7 * 4); }
-	.five   { width: calc(100% / 7 * 5); }
-	.six    { width: calc(100% / 7 * 6); }
-	.seven  { width: calc(100% / 7 * 7); }
-	
-	/* set offseting classes for pushing columns over and leaving some columns blank */
-	.offset-by-one    { margin-left: calc(100% / 7 * 1); }
-	.offset-by-two    { margin-left: calc(100% / 7 * 2); }
-	.offset-by-three  { margin-left: calc(100% / 7 * 3); }
-	.offset-by-four   { margin-left: calc(100% / 7 * 4); }
-	.offset-by-five   { margin-left: calc(100% / 7 * 5); }
-	.offset-by-six    { margin-left: calc(100% / 7 * 6); }
-	.offset-by-seven  { margin-left: calc(100% / 7 * 7); }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
